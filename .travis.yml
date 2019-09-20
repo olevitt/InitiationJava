@@ -1,6 +1,5 @@
 jdk: openjdk8
 script:
   - cd clientjava
-  - jdk_switcher use openjdk8
   - javac -version
   - mvn package
